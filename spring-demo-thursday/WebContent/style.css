@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+	float:left;
+}
+
+#navigation-container {
+  width: 100vw;
+  margin: 0 auto;
+  height:11%;
+  position: fixed;
+	z-index:1;
+	background-color:black;
+	
+}
+
+ss
+.navigation-bar img{
+	margin-right:30px;
+float:left;
+
+}
+.navigation-bar ul {
+  color:white;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+  float:right;
+}
+
+.navigation-bar li {
+	color:white;
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: white;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+
+.navigation-bar {
+  overflow: hidden;
+  background-color:black;
+	width:100%;
+	margin-right:30px;
+}
+
+.navigation-bar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigation-bar a:hover {
+  background-color: #ddd;
+  color: gray;
+}
+
+.navigation-bar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navigation-bar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation-bar a:not(:first-child) {display: none;}
+  .navigation-bar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navigation-bar.responsive {position: relative;}
+  .navigation-bar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navigation-bar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+ {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100vw;
+  height: 89%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+#footerSection {
+  width:100%;
+  background: #202020
+  ;color: white;
+  padding: 28px 0 44px;
+  margin-top: 20px;
+  border-top: 1px 
+  solid #444;
+}
+#footerSection a{color:#ccc; font-size:11px; padding:0; line-height:24px; display:block; }
+#footerSection a:hover{color:#fff;  }
+#footerSection  #socialMedia a:hover{background:none;}
+
+.profile-container{
+	border:2px solid grey;
+	border-radius:5px;
+	/* margin-top:7%; */
+	padding:0px 0px 20px 0px;
+	margin:7% 20px 10px 20px;
+}
+
+#profile-pic{
+	
+	border-radius:50%; 
+	margin-top:5px; 
+	margin-left:10px; 
+	margin-right:30px;
+	width:11%; 
+	height:20%;
+}
+
+.profile-nav ul {
+	
+	clear:both;
+  color:green;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+
+}
+
+.profile-nav li {
+	float:right;
+	color:white;
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  
+}
+
+.profile-nav li a {
+  color: black;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
